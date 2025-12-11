@@ -1,7 +1,7 @@
 # Maximun Plugin for KOReader
 
 ## Description
-📖 Maximun is a plugin designed for KOReader to enhance the manga reading experience. It divides the screen into four quadrants (2x2 grid), allowing users to zoom into specific sections of a manga page for better readability. The plugin is optimized for CBZ and CBR files.
+📖 Maximun is a plugin designed for KOReader to enhance the manga reading experience. It divides the screen into four quadrants (2x2 grid), allowing users to zoom into specific sections of a manga page for better readability. The plugin is optimized for CBZ, CBR and PDF files.
 
 ## Features
 - **Grid View**: Divides the screen into four quadrants for easy navigation.
@@ -11,7 +11,7 @@
 
 ## How to Use
 1. **Enable the Plugin**: The plugin is automatically registered in the KOReader main menu.
-2. **Activate Grid Mode**: Open a CBZ or CBR file and enable grid mode from the menu.
+2. **Activate Grid Mode**: Open a CBZ, CBR or PDF file and enable grid mode from the menu.
 3. **Zoom In/Out**: Perform a two-finger tap on any quadrant to zoom in. Tap again to return to the grid view.
 4. **Disable Grid Mode**: Use the menu option to turn off grid mode.
 
