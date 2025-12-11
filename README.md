@@ -7,7 +7,7 @@
 - **Grid View**: Divides the screen into four quadrants for easy navigation.
 - 🔍 **Zoom Functionality**: Use a two-finger tap on any quadrant to zoom it to fullscreen.
 - **Toggle Grid Mode**: Enable or disable the grid mode as needed.
-- **Supported Formats**: Works with CBZ, CBR, and PDF files.
+- **Supported Formats**: Works with CBZ, CBR and PDF files.
 
 ## How to Use
 1. **Enable the Plugin**: The plugin is automatically registered in the KOReader main menu.
@@ -24,5 +24,5 @@
 - ℹ️ **About**: Displays information about the plugin and usage instructions.
 
 ## Limitations
-- ⚠️ Only supports CBZ, CBR, and PDF files.
+- ⚠️ Only supports CBZ, CBR and PDF files.
 - Requires a touch-enabled device.
