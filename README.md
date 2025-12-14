@@ -17,6 +17,14 @@ Below are examples of the plugin in action:
 
 ![Manga with zoom](img/Img2.png)
 
+- **Plugin Menu:**
+
+![Plugin Menu](img/Menu1.png)
+
+- **Plugin Settings:**
+
+![Plugin Settings](img/Menu2.png)
+
 ---
 
 ## Features
