@@ -1,7 +1,7 @@
 --[[--
 Auto-rotate module for Maximum plugin.
 Based on https://github.com/Extraltodeus/koreader-autorotate
-@module maximun.autorotate
+@module maximum.autorotate
 ]]--
 
 local Device = require("device")

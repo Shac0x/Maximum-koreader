@@ -1,7 +1,7 @@
-# Maximun Plugin for KOReader
+# Maximum Plugin for KOReader
 
 ## Overview
-Maximun is a plugin designed to enhance the manga reading experience on KOReader. It introduces a grid-based zoom functionality and automatic page rotation for landscape pages. Compatible with CBZ, CBR and PDF formats.
+Maximum is a plugin designed to enhance the manga reading experience on KOReader. It introduces a grid-based zoom functionality and automatic page rotation for landscape pages. Compatible with CBZ, CBR and PDF formats.
 
 ---
 
@@ -57,7 +57,7 @@ Below are examples of the plugin in action:
 ---
 
 ## Installation
-1. Copy the `maximun.koplugin` folder to the KOReader plugins directory.
+1. Copy the `maximum.koplugin` folder to the KOReader plugins directory.
 2. Restart KOReader to load the plugin.
 
 ---
@@ -72,7 +72,7 @@ Below are examples of the plugin in action:
 
 ## File Structure
 ```
-maximun.koplugin/
+maximum.koplugin/
 ├── _meta.lua       # Plugin metadata
 ├── main.lua        # Main plugin coordinator
 ├── autorotate.lua  # Auto-rotation module

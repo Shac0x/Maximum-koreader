@@ -1,13 +1,13 @@
 --[[--
 Settings module for Maximum plugin.
-@module maximun.settings
+@module maximum.settings
 ]]--
 
 local LuaSettings = require("luasettings")
 local DataStorage = require("datastorage")
 
 local Settings = {}
-local settings_file = DataStorage:getSettingsDir() .. "/maximun.lua"
+local settings_file = DataStorage:getSettingsDir() .. "/maximum.lua"
 local settings = nil
 
 local DEFAULTS = {

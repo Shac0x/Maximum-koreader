@@ -1,6 +1,6 @@
 --[[--
 Grid zoom module for Maximum plugin.
-@module maximun.grid
+@module maximum.grid
 ]]--
 
 local Device = require("device")
@@ -17,10 +17,10 @@ local Grid = {
 }
 
 local QUADRANTS = {
-    { id = "maximun_2tap_q1", x = 0,   y = 0,   w = 0.5, h = 0.5 },
-    { id = "maximun_2tap_q2", x = 0.5, y = 0,   w = 0.5, h = 0.5 },
-    { id = "maximun_2tap_q3", x = 0,   y = 0.5, w = 0.5, h = 0.5 },
-    { id = "maximun_2tap_q4", x = 0.5, y = 0.5, w = 0.5, h = 0.5 },
+    { id = "maximum_2tap_q1", x = 0,   y = 0,   w = 0.5, h = 0.5 },
+    { id = "maximum_2tap_q2", x = 0.5, y = 0,   w = 0.5, h = 0.5 },
+    { id = "maximum_2tap_q3", x = 0,   y = 0.5, w = 0.5, h = 0.5 },
+    { id = "maximum_2tap_q4", x = 0.5, y = 0.5, w = 0.5, h = 0.5 },
 }
 
 function Grid:init(ui, Settings)
@@ -49,7 +49,7 @@ function Grid:setupTouchZones(handler)
     end
 
     zones[#zones + 1] = {
-        id = "maximun_single_tap",
+        id = "maximum_single_tap",
         ges = "tap",
         screen_zone = { ratio_x = 0, ratio_y = 0, ratio_w = 1, ratio_h = 1 },
         handler = function(ges) return self:onSingleTap(ges) end,

@@ -1,6 +1,6 @@
 --[[--
 Menu module for Maximum plugin.
-@module maximun.menu
+@module maximum.menu
 ]]--
 
 local UIManager = require("ui/uimanager")

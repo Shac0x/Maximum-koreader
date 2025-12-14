@@ -1,6 +1,6 @@
 --[[--
 Maximum plugin for KOReader
-@module koplugin.maximun
+@module koplugin.maximum
 @credits @shac0x
 ]]--
 
@@ -17,16 +17,16 @@ local SUPPORTED_EXTENSIONS = {
     pdf = true,
 }
 
-local Maximun = InputContainer:extend{
-    name = "maximun",
+local Maximum = InputContainer:extend{
+    name = "maximum",
     is_doc_only = true,
 }
 
-function Maximun:init()
+function Maximum:init()
     self.ui.menu:registerToMainMenu(self)
 end
 
-function Maximun:onReaderReady()
+function Maximum:onReaderReady()
     Grid:init(self.ui, Settings)
     Grid:setupTouchZones(function(quadrant, ges)
         return self:onGridGesture(quadrant, ges)
@@ -34,29 +34,29 @@ function Maximun:onReaderReady()
     AutoRotate:init(Settings)
 end
 
-function Maximun:isComic()
+function Maximum:isComic()
     local doc = self.ui and self.ui.document
     if not doc or not doc.file then return false end
     local ext = doc.file:match("%.([^%.]+)$")
     return ext and SUPPORTED_EXTENSIONS[ext:lower()] or false
 end
 
-function Maximun:onPageUpdate(pageno)
+function Maximum:onPageUpdate(pageno)
     if self:isComic() then
         AutoRotate:onPageUpdate(self.ui.document, pageno)
     end
 end
 
-function Maximun:onGridGesture(quadrant, ges)
+function Maximum:onGridGesture(quadrant, ges)
     if not self:isComic() then return false end
     return Grid:onGesture(quadrant)
 end
 
-function Maximun:addToMainMenu(menu_items)
-    menu_items.maximun = Menu:build(self, Grid, AutoRotate, Settings)
+function Maximum:addToMainMenu(menu_items)
+    menu_items.maximum = Menu:build(self, Grid, AutoRotate, Settings)
 end
 
-function Maximun:onCloseDocument()
+function Maximum:onCloseDocument()
     Grid:reset()
     if AutoRotate.enabled then
         AutoRotate:restorePortrait()
@@ -64,4 +64,4 @@ function Maximun:onCloseDocument()
     AutoRotate:reset()
 end
 
-return Maximun
+return Maximum
