@@ -32,8 +32,9 @@ Below are examples of the plugin in action:
 - **Zoom Functionality**: Two-finger tap on any quadrant to zoom it to fullscreen.
 - **Auto-rotate**: Automatically rotates landscape pages to landscape orientation.
 - **Rotation Direction**: Choose between clockwise (90°) or counter-clockwise (270°) rotation.
+- **Page Split**: Splits landscape pages into two views (left half, then right half).
 - **Persistent Settings**: Hold any option to save it as default.
-- **Toggle Modes**: Enable or disable grid mode and auto-rotate independently.
+- **Toggle Modes**: Enable or disable grid mode, auto-rotate and page split independently.
 - **Supported Formats**: Works with CBZ, CBR and PDF files.
 
 ---
@@ -51,6 +52,12 @@ Below are examples of the plugin in action:
 2. Choose rotation direction (Maximum > Rotation direction).
 3. Landscape pages will automatically rotate when navigating.
 
+### Page Split
+1. Enable page split from the menu (Maximum > Split landscape pages).
+2. Landscape pages will display in two halves: first the left half, then the right half.
+3. Navigate normally to switch between halves and pages.
+4. Note: Auto-rotate and Page Split are mutually exclusive.
+
 ### Save Defaults
 - Hold any option to save it as the default setting.
 
@@ -66,6 +73,7 @@ Below are examples of the plugin in action:
 - **Enable Grid Mode**: Activates the grid view for supported files.
 - **Auto-rotate landscape pages**: Automatically rotates landscape pages.
 - **Rotation direction**: Choose clockwise or counter-clockwise rotation.
+- **Split landscape pages**: Splits landscape pages into two views.
 - **About**: Displays information about the plugin.
 
 ---
@@ -77,6 +85,7 @@ maximum.koplugin/
 ├── main.lua        # Main plugin coordinator
 ├── autorotate.lua  # Auto-rotation module
 ├── grid.lua        # Grid zoom module
+├── pagesplit.lua   # Page split module
 ├── menu.lua        # Menu module
 └── settings.lua    # Persistent settings module
 ```
