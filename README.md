@@ -30,6 +30,7 @@ Below are examples of the plugin in action:
 ## Features
 - **Grid View**: Divides the screen into four quadrants (2x2) for easy navigation.
 - **Zoom Functionality**: Two-finger tap on any quadrant to zoom it to fullscreen.
+- **RTL Mode**: Right-to-left reading direction when zoomed (for manga).
 - **Auto-rotate**: Automatically rotates landscape pages to landscape orientation.
 - **Rotation Direction**: Choose between clockwise (90°) or counter-clockwise (270°) rotation.
 - **Page Split**: Splits landscape pages into two views (left half, then right half).
@@ -46,6 +47,12 @@ Below are examples of the plugin in action:
 2. Enable grid mode from the menu (Maximum > Enable Grid Mode).
 3. Two-finger tap on any quadrant to zoom in.
 4. Single tap or two-finger tap again to return to normal view.
+
+### RTL Mode (Right-to-Left)
+1. Enable RTL mode from the menu (Maximum > Grid RTL Mode).
+2. When zooming into a quadrant, the reading direction will change to right-to-left.
+3. Ideal for reading manga in its native reading direction.
+4. The original direction is restored when exiting zoom.
 
 ### Auto-rotate
 1. Enable auto-rotate from the menu (Maximum > Auto-rotate landscape pages).
@@ -71,6 +78,7 @@ Below are examples of the plugin in action:
 
 ## Menu Options
 - **Enable Grid Mode**: Activates the grid view for supported files.
+- **Grid RTL Mode**: Enables right-to-left reading direction when zoomed.
 - **Auto-rotate landscape pages**: Automatically rotates landscape pages.
 - **Rotation direction**: Choose clockwise or counter-clockwise rotation.
 - **Split landscape pages**: Splits landscape pages into two views.
